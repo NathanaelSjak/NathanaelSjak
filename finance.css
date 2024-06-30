@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+head{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(170, 223, 253);
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(139, 194, 249);
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+a:hover{
+    color: steelblue;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.finance-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.finance-section {
+    width: 48%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: paleturquoise;
+}
+
+.finance-details {
+    margin-bottom: 20px;
+}
+
+.finance-details p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+
+#reportButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reportButton:hover {
+    background-color: #01a9fe;
+}
